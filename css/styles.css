@@ -46,7 +46,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .visually-hidden {
@@ -75,8 +75,7 @@ img {
 .page-head-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .page-navigation {
@@ -203,14 +202,9 @@ img {
   background-color: #404bbf;
 }
 
-.effective-p {
-  padding-top: 24px;
-}
-
 /*--STRATEGY SECTION Sektion2--*/
 .strategy {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .strategy-container,
@@ -228,6 +222,7 @@ img {
   flex-direction: column;
   gap: 8px;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .strategy-text-h {
@@ -253,8 +248,7 @@ img {
   background-color: #ffffff;
 }
 .ourteam-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .ourteam-clas-h {
@@ -280,8 +274,9 @@ img {
   gap: 8px;
 }
 
-.thumb img {
+.thumb {
   background: #f4f4fd;
+  padding: 32px 0;
 }
 
 .ourteam-text-h {
@@ -398,6 +393,7 @@ img {
 }
 
 .logo-n {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
